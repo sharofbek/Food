@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="menu">
+            <img src="./images/logo.png" alt="">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Menu</a>
+            <a href="#">Features</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <button class="btn" style="background-color: #df731c;" onclick="toggleModal()">
+            Bascet
+        </button>
+    </nav>
+
+    <div class="container container-fluid">
+        <div class="block">
+            <div class="food-text ">
+                <h1>Making time a good time by making food the good food!</h1>
+                <p>There are many things that are needed to start the Fast Food Business.
+                    You only need not justfood stalls with persons but also specialized equipment</p>
+                <div class="btn-group">
+                    <button>
+                        Order Now
+                    </button>
+                    <button>
+                        Food Details
+                    </button>
+                </div>
+            </div>
+            <div class="food-photo">
+                <img src="./images/eat-4.png" alt="">
+            </div>
+        </div>
+        <div class="card-block">
+            <p class="title">F E A T U R E</p>
+            <h2 class="paragraf">Food With A New Passion</h2>
+            <div class="card-groups">
+                <div class="card1">
+                    <img src="./images/hous.png" alt="">
+                    <h4>Quality Food</h4>
+                    <p>
+                        It can be a very secure path to earn good money and make you very succesful creative
+                        entrepreneur.
+                    </p>
+
+                </div>
+                <div class="card1">
+                    <img src="./images/food-delivery.png" alt="">
+                    <h4>Quality Food</h4>
+                    <p>
+                        It can be a very secure path to earn good money and make you very succesful creative
+                        entrepreneur.
+                    </p>
+
+                </div>
+                <div class="card1">
+                    <img src="./images/smile.png" alt="">
+                    <h4>Quality Food</h4>
+                    <p>
+                        It can be a very secure path to earn good money and make you very succesful creative
+                        entrepreneur.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="about-block">
+            <div class="foto">
+                <img src="./images/Users.png" alt="">
+            </div>
+            <div class="text">
+                <p>About Us</p>
+                <h2>
+                    Food Stalls width Persons but to Product marketing plane catlogues etc to
+                </h2>
+                <span>
+                    There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls
+                    with Persons but also equipment make your marketing plane Effective.
+                </span>
+                <button class="btn ">Read More</button>
+            </div>
+        </div>
+
+        <div class="menu-block">
+            <p class="title">M e n u</p>
+            <h2 class="paragraf">Food Full of treaty Love</h2>
+            <p class="p">
+                There are many things are needed to start the fast Food Business.
+                You need not only Just Food Stalls with Persons but also specialized equipment ,Skills to manage
+                Customers
+            </p>
+            <div class="Menu-group" id="menu">
+                <!-- <div class="menu-card">
+                    <img src="./images/eat-1.png" alt="">
+                    <div class="sena">
+                        <h5>Vegie Muffen</h5>
+                        <h5>16$</h5>
+                    </div>
+                    <p>There are many things are needed to start the Fast Food Business </p>
+                    <div class="stars">
+                        <button class="btn px-3 py-2 text-white">+</button>
+                        <div>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="./images/eat-2.png" alt="">
+                    <div class="sena">
+                        <h5>Vegie Muffen</h5>
+                        <h5>30$</h5>
+                    </div>
+                    <p>There are many things are needed to start the Fast Food Business </p>
+                    <div class="stars">
+                        <button class="btn px-3 py-2 text-white">+</button>
+                        <div>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="./images/eat-3.png" alt="">
+                    <div class="sena">
+                        <h5>Vegie Muffen</h5>
+                        <h5>25$</h5>
+                    </div>
+                    <p>There are many things are needed to start the Fast Food Business </p>
+                    <div class="stars">
+                        <button class="btn px-3 py-2 text-white">+</button>
+                        <div>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="./images/eat-6.png" alt="">
+                    <div class="sena">
+                        <h5>Vegie Muffen</h5>
+                        <h5>20$</h5>
+                    </div>
+                    <p>There are many things are needed to start the Fast Food Business </p>
+                    <div class="stars">
+                        <button class="btn px-3 py-2 text-white">+</button>
+                        <div>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="./images/eat-5.png" alt="">
+                    <div class="sena">
+                        <h5>Vegie Muffen</h5>
+                        <h5>10$</h5>
+                    </div>
+                    <p>There are many things are needed to start the Fast Food Business </p>
+                    <div class="stars">
+                        <button class="btn px-3 py-2 text-white">+</button>
+                        <div>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="./images/eat-6.png" alt="">
+                    <div class="sena">
+                        <h5>Vegie Muffen</h5>
+                        <h5>20$</h5>
+                    </div>
+                    <p>There are many things are needed to start the Fast Food Business </p>
+                    <div class="stars">
+                        <button class="btn px-3 py-2 text-white">+</button>
+                        <div>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div> -->
+
+                <p class="title">Learn More</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="mobile-block">
+        <div class="mobile-text">
+            <p class="">T A K E A W A Y</p>
+            <h2>
+                Food Stalls width Persons but to Product marketing Plane.
+            </h2>
+            <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus et, minima iusto consequatur
+                laboriosam ea!
+                Lorem ipsum dolor sit amet. Lorem, ipsum dolor.
+            </span>
+            <div class="btn-groups">
+                <button class="btn btn-dark">App Store</button>
+                <button class="btn border-dark">Google Play</button>
+            </div>
+
+        </div>
+        <div class="mobile-foto">
+            <img src="./images/mobil.png" alt="" style="width:50%;">
+        </div>
+    </div>
+
+    <div class="test-block">
+        <p class="title"> T E S T I M O N I A L </p>
+        <h1 class="paragraf"> Making Food great again and again </h1>
+        <p>
+            You need not only Just Food Stalls with Persons but also specialized, Skills to Managers Customers\
+            Effective Product catlogues etc to make your.
+        </p>
+
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-card">
+                        <img src="./images/user.png" alt="">
+                        <p>
+                            You need not only Just Food Stalls with Persons but also specialized ,
+                            Skills to manage Customers, Effective product catlogues etc to make your.
+                        </p>
+                        <div class="stars">
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h6>AUGUSTA W.REYNOSO</h6>
+                            <p>UI&UX DESIGNER</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item ">
+                    <div class="carousel-card">
+                        <img src="./images/user.png" alt="">
+                        <p>
+                            You need not only Just Food Stalls with Persons but also specialized ,
+                            Skills to manage Customers, Effective product catlogues etc to make your.
+                        </p>
+                        <div class="stars">
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h6>AUGUSTA W.REYNOSO</h6>
+                            <p>UI&UX DESIGNER</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-card">
+                        <img src="./images/user.png" alt="">
+                        <p>
+                            You need not only Just Food Stalls with Persons but also specialized ,
+                            Skills to manage Customers, Effective product catlogues etc to make your.
+                        </p>
+                        <div class="stars">
+                            <div>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h6>AUGUSTA W.REYNOSO</h6>
+                            <p>UI&UX DESIGNER</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-icon" aria-hidden="true"><i class="bi bi-chevron-left"></i></span>
+                <span class="visually-hidden">Previous</i></span>
+            </div>
+            <div class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"> <i class="bi bi-chevron-right"></i> </span>
+                <span class="visually-hidden">Next</span>
+            </div>
+            <!-- 
+            <div class="btn-gr">
+                <button class="carousel-control" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <button  class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+            </div> -->
+        </div>
+
+    </div>
+
+    <div class="contact-block">
+        <p class="title"> C O N T A C T </p>
+        <h4 class="p">
+            You need not only Just Food Stalls with Persons but also specialized, Skills to manage
+        </h4>
+        <div class="btn-group">
+            <input type="text" class="i" placeholder="Enter Your Message">
+            <button class="btn" style="background-color: #df731c;">Send</button>
+        </div>
+    </div>
+
+    <div class="end-block">
+        <div class="logo">
+            <img src="./images/logo.png" alt="">
+            <a href="#">www.company name.com</a>
+            <a href="#">companyname@gmail.com</a>
+            <a href="#">Phone: +7 485-118-03-25</a>
+        </div>
+        <div class="home">
+            <a href="#"> <b>Home</b></a>
+            <a href="#"> Landingpage</a>
+            <a href="#"> Documentation</a>
+            <a href="#"> Refferal Program</a>
+            <a href="#"> UI & UX Design </a>
+            <a href="#"> Web design </a>
+        </div>
+        <div class="Menu">
+            <a href="#"> <b>Menu</b></a>
+            <a href="#"> Landingpage</a>
+            <a href="#"> Documentation</a>
+            <a href="#"> Refferal Program</a>
+            <a href="#"> UI & UX Design </a>
+            <a href="#"> Web design </a>
+        </div>
+        <div class="company">
+            <a href="#"> <b>Company</b></a>
+            <a href="#"> Landingpage</a>
+            <a href="#"> Documentation</a>
+            <a href="#"> Refferal Program</a>
+            <a href="#"> UI & UX Design </a>
+            <div class="logos">
+                <img src="./images/instagram.png" alt="">
+                <img src="./images/facebook.png" alt="">
+                <img src="./images/twitter 1.png" alt="">
+                <img src="./images/you-tube.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Product Modal -->
+
+    <div id="product-modal">
+        <div id="product-modal-content">
+            <table id="table" class="table table-hover"> 
+                
+            </table>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+        
+
+        <script src="./index.js"></script>
+        <script src="./product.js"></script>
+</body>
+
+</html>

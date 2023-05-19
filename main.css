@@ -1,0 +1,488 @@
+:root {
+    --width: 85%;
+    --half: 50;
+    --c: #df731c;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+
+.nav {
+    width: 100%;
+    gap: 570px;
+    display: flex;
+    height: 70px;
+    background-color: #a7a3a33f;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    backdrop-filter: blur(3px);
+    z-index: 4;
+
+}
+
+.nav .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+
+}
+
+.nav .menu a {
+    text-decoration: none;
+    color: #df731c;
+    transition: .4s;
+
+}
+.nav .menu a:hover{
+    color: black;
+}
+
+.nav .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px;
+}
+
+.container {
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+
+}
+
+.block {
+    width: var(--width);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-text {
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.food-photo {
+    width: 50%;
+
+}
+
+.food-text p {
+    font-size: 16px;
+    line-height: 27px;
+
+}
+
+.food-text .btn-group {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    align-items: center;
+}
+
+.food-text .btn-group button {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #df731c;
+    background-color: #df731c;
+    color: white;
+
+}
+
+.food-text .btn-group button:nth-child(2) {
+    background-color: transparent;
+    color: #df731c;
+}
+
+
+
+.title {
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #df731c;
+}
+
+.paragraf {
+    width: 100%;
+    text-align: center;
+}
+
+.p {
+    display: block;
+    margin: 30px auto;
+    width: 70%;
+    text-align: center;
+}
+
+.card-groups {
+    margin: 30px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    gap: 10px;
+
+}
+
+.card-groups .card1 {
+    width: 31%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.card-groups .card1:hover {
+    box-shadow: 0px 0px 4px lightgray;
+}
+
+.about-block {
+    width: 100%;
+    margin: 30px auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about-block .foto {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-block .foto img {
+    width: 90%;
+    border-radius: 20px;
+    height: 75%;
+
+}
+
+.about-block .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: auto;
+    text-align: left;
+    gap: 20px;
+}
+
+.about-block .text h2 {
+    width: 80%;
+}
+
+.about-block .text p {
+    color: var(--c);
+    font-weight: bold;
+}
+
+.about-block .text span {
+    width: 80%;
+}
+
+.about-block .text button {
+    background-color: var(--c);
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--c);
+    color: white;
+}
+
+.menu-block {
+    margin: 50px auto;
+}
+
+.Menu-group {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 30px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+    height: auto;
+    border-radius: 50px 5px 5px 5px;
+    box-shadow: 0 0 8px #df741cd3;
+}
+
+.menu-card img {
+    width: 100%;
+    border-radius: 50px 5px 50px 0px;
+}
+
+.menu-card .sena {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-card p {
+    padding: 5px;
+}
+
+.menu-card .stars {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--c);
+}
+
+.menu-card .stars .btn {
+    background-color: var(--c);
+    font-size: 20px;
+}
+
+.menu-card .btn{
+    background-color: var(--c);
+    font-size: 20px;
+    color: white;
+}
+
+.mobile-block {
+    width: 100%;
+    background-color: #FDF9F5;
+    display: flex;
+    height: 80vh;
+    margin: 50px auto;
+    padding-left: 120px;
+
+}
+
+.mobile-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: left;
+}
+
+.mobile-text p {
+    color: var(--c);
+    font-weight: bold;
+}
+
+.mobile-text .btn-groups {
+    display: flex;
+    gap: 40px;
+}
+
+.mobile-foto {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-block {
+    width: var(--width);
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-block p {
+    width: 80%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.carousel-card {
+    width: 700px;
+    height: auto;
+    box-shadow: 0 0 5px lightgrey;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-card .stars {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-gr {
+    border: 1px solid red;
+    width: 100%;
+    height: 50px;
+}
+
+.carousel-control {
+    position: absolute;
+
+}
+
+.contact-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #FDF9F5;
+    margin: 40px auto;
+}
+
+.contact-block input {
+    width: 500px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px 0px 0 5px;
+}
+
+.contact-block h4 {
+    width: 60%;
+}
+
+.contact-block button {
+    color: white;
+    width: 140px;
+}
+
+.end-block {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #252525;
+    padding: 30px;
+}
+
+.Menu,
+.home,
+.company {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: left;
+}
+
+.end-block a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    gap: 20px;
+    color: grey;
+}
+
+.logo a {
+    color: grey;
+}
+
+.logo img {
+    width: 20%;
+}
+
+.company .logos {
+    display: flex;
+    gap: 5px;
+}
+
+
+
+/* Product Modal Style */
+
+#product-modal {
+    width: 85%;
+    height: 85vh;
+    background-color: #df741c60;
+    position: fixed;
+    left: 50%;
+    top: -50%;
+    z-index: 5;
+    backdrop-filter: blur(30px);
+    transform: translate(-50%, -44%);
+    border-radius: 16px;
+    box-shadow: 0px 0px 15px 4px rgba(19, 27, 32, 0.2);
+    transition: all .5s ease-in-out;
+}
+
+.activ_modal{
+    top: 50% !important;
+    left: 50% !important;
+}
+
+
+.no_active{
+    pointer-events: none !important;
+    opacity: 0.5 !important;
+    
+}
+
+#table{
+    width: 80%;
+    height: auto;
+}
+
+
+ .img{
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+
