@@ -1,0 +1,183 @@
+@media screen and (max-width:600px) {
+    .nav {
+        display: flex;
+        height: 220px;
+        position: static;
+        gap: 10px;
+        justify-content: space-between;
+        text-align: left;
+        align-items: start;
+        padding: 20px;
+    }
+    .nav .menu{
+        flex-direction: column;
+        text-align: left;
+        justify-content: start;
+        align-items: start;
+        gap: 4px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .block {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+
+    .food-text {
+        width: 100%;
+
+    }
+
+    .food-photo img {
+        width: 100%;
+
+    }
+
+    .card-block {
+        height: auto;
+    }
+
+    .card-groups {
+        width: 90%;
+        flex-direction: column;
+
+    }
+
+    .card-groups .card1 {
+        width: 100%;
+    }
+
+    .about-block {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .about-block .foto {
+        width: 100%;
+
+    }
+
+    .about-block .text {
+        width: 90%;
+    }
+
+    .menu-block {
+        margin-bottom: 20px;
+        text-align-last: left;
+    }
+    .menu-block p{
+        text-align: left;
+        padding-left: 30px;
+    }
+    .menu-block .p{
+        width: 100%;
+        text-align: left;
+    }
+    .menu-block h2{
+        text-align: left;
+        padding-left: 30px;
+    }
+    .mobile-block {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 0;
+        gap: 20px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-text {
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .mobile-foto {
+        width: 100%;
+        margin: auto;
+    }
+
+    .mobile-foto img {
+        width: 100%;
+    }
+
+    .test-block {
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+
+    }
+
+    .carousel-card {
+        width: 90%;
+        margin: auto;
+    }
+
+    .contact-block {
+        width: 100%;
+        padding: 15px;
+        height: auto;
+    }
+
+    .btn-group {
+        width: 90%;
+    }
+
+    .contact-block h4 {
+        width: 100%;
+    }
+
+    .end-block {
+        width: 100%;
+        height: auto;
+        gap: 33px;
+        flex-wrap: wrap;
+        margin: auto;
+        /* flex-direction: column; */
+    }
+
+    .Menu,
+    .home,
+    .company{
+        width: 45%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .logo{
+        width: 45%;
+        height: auto;
+    }
+    .logo a{
+        font-size: 14px;
+    }
+    #product-modal {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #table{
+        display: flex;
+        flex-direction: column;
+    }
+    #product-modal-content table{
+        width: auto;
+    }
+    #product-modal-content .orderPrice{
+        width: 100%;
+    }
+}
